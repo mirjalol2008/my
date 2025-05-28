@@ -8,8 +8,8 @@ from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, InlineKe
 
 import database  # Sizning database.py faylingiz
 
-TOKEN = "7514186596:AAEUrhhJSYiHmfbD3GvUxpLtBGr-POkeBcU"
-ADMIN_ID = 5873723609  # Sizning Telegram ID'ingiz
+TOKEN = "YOUR_TOKEN_HERE"
+ADMIN_ID = ADMIN_ID  # Sizning Telegram ID'ingiz
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
